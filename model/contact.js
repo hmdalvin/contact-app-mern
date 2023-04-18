@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const Contact = mongoose.model('Contact', {
-    name: {
+    nameContact: {
         type: String,
         require: true,
     },
